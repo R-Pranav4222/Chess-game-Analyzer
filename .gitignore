@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+build/
+
+# OS / tooling
+.DS_Store
+Thumbs.db
+
+# Stockfish binary (too large for normal git)
+backend/stockfish/*.exe
+backend/stockfish/stockfish
