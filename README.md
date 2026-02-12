@@ -39,3 +39,21 @@ This repo does **not** commit the Stockfish binary (it is large). To run analysi
 - Set an environment variable `STOCKFISH_PATH` to the full path of your Stockfish executable.
 
 If Stockfish is missing, the backend returns a clear error message.
+
+### Download Stockfish
+
+- Download Stockfish from the official site: https://stockfishchess.org/download/
+- Extract it and locate the engine executable:
+	- Windows: typically `stockfish.exe`
+	- macOS/Linux: typically `stockfish` (you may need `chmod +x stockfish`)
+
+### Point the Backend to Stockfish
+
+Option A (recommended): set `STOCKFISH_PATH`
+
+- PowerShell (Windows):
+	- `$env:STOCKFISH_PATH = "C:\\path\\to\\stockfish.exe"`
+
+Option B: copy into the repo (Windows)
+
+- Put the file at `backend/stockfish/stockfish.exe`
