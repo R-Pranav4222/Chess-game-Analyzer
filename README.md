@@ -54,6 +54,10 @@ Option A (recommended): set `STOCKFISH_PATH`
 - PowerShell (Windows):
 	- `$env:STOCKFISH_PATH = "C:\\path\\to\\stockfish.exe"`
 
+- bash/zsh (macOS/Linux):
+	- `export STOCKFISH_PATH="/path/to/stockfish"`
+	- (optional) persist it by adding the line above to `~/.zshrc` or `~/.bashrc`
+
 Option B: copy into the repo (Windows)
 
 - Put the file at `backend/stockfish/stockfish.exe`
